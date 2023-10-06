@@ -1,6 +1,6 @@
-type Task = {
+type Todo = {
   title: string;
   completed: boolean;
   createdAt: string;
 };
-export default Task;
+export default Todo;

@@ -1,1 +1,1 @@
-export const LOCAL_STORAGE_KEY="tcorrea-tasks"
+export const LOCAL_STORAGE_KEY="tcorrea-todos"
