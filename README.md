@@ -1,27 +1,50 @@
-# React + TypeScript + Vite
+# Todo App com React, Zustand, Tailwind CSS e TypeScript
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este é um projeto simples de um Todo App desenvolvido com React(Vite), Zustand para gerenciamento de estado, Tailwind CSS para estilização e TypeScript para tipagem estática. O objetivo deste projeto é exercitar e demonstrar o uso de diferentes tecnologias e conceitos no desenvolvimento de aplicações React.
 
-Currently, two official plugins are available:
+## Funcionalidades
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Adicionar novas tarefas
+- Marcar tarefas como concluídas
+- Excluir tarefas
 
-## Expanding the ESLint configuration
+## Tecnologias Utilizadas
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- **React:** Biblioteca JavaScript para construção de interfaces de usuário.
+- **Zustand:** Biblioteca de gerenciamento de estado para React.
+- **Tailwind CSS:** Framework de estilização CSS utilitário altamente configurável.
+- **TypeScript:** Superset JavaScript que adiciona tipagem estática ao código.
 
-- Configure the top-level `parserOptions` property like this:
+## Pré-requisitos
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
+Antes de iniciar, certifique-se de ter o [Node.js](https://nodejs.org/) instalado em seu sistema.
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## Como Iniciar
+
+1. Clone o repositório:
+
+   ```bash
+   git clone https://github.com/tcorrea/react-todo-list
+   ```
+
+2. Navegue até o diretório do projeto:
+
+   ```bash
+   cd react-todo-list
+   ```
+
+3. Instale as dependências:
+
+   ```bash
+   npm install
+   ```
+
+4. Inicie o servidor de desenvolvimento:
+
+   ```bash
+   npm run dev
+   ```
+
+   O aplicativo será executado no modo de desenvolvimento. Abra http://localhost:5173 no seu navegador para visualizar o aplicativo.
+
+**Nota:** Este é um projeto simples e educacional para praticar conceitos de React, Zustand, Tailwind CSS e TypeScript. Não é recomendado para uso em produção sem ajustes e melhorias significativas.
