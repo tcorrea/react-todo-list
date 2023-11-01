@@ -2,6 +2,10 @@
 
 Este é um projeto simples de um Todo App desenvolvido com React(Vite), Zustand para gerenciamento de estado, Tailwind CSS para estilização e TypeScript para tipagem estática. O objetivo deste projeto é exercitar e demonstrar o uso de diferentes tecnologias e conceitos no desenvolvimento de aplicações React.
 
+## Como Testar
+
+Você pode testar a aplicação acessando o seguinte link: [Todo App](https://tcorrea.github.io/react-todo-list/).
+
 ## Funcionalidades
 
 - Adicionar novas tarefas
